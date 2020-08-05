@@ -1,0 +1,338 @@
+executing in .
+executing in ./copia_deletar
+executing in ./original_deletar
+executing in ./classificados
+executing in ./classificados/2002
+executing in ./classificados/2002/viagem2
+executing in ./classificados/2002/viagem3
+executing in ./classificados/2001
+executing in ./classificados/2001/viagem1
+executing in ./classificados/2001/viagem2
+executing in ./bagunca
+executing in ./bagunca/viagem2 (copy)
+executing in ./bagunca/viagem2
+executing in ./bagunca/viagem3
+executing in ./safe
+executing in ./safe/4
+executing in ./safe/1
+executing in ./safe/2
+executing in ./safe/3
+===================
+Copia encontrada em ./classificados/2001/viagem2/7.png
+Original: ./classificados/2002/viagem2/7.png
+MD5: 3cc9509778bda46b0a2fc3cf3ca44431
+kline classificados
+>classificados|result of comparing ./classificados/2001/viagem2/7.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/7.png
+ and classificados
+kline safe
+>|result of comparing ./classificados/2001/viagem2/7.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/7.png
+ and safe
+duplicated files found in keepers, nothing will be done
+===================
+Copia encontrada em ./classificados/2001/viagem2/5.png
+Original: ./classificados/2002/viagem2/5.png
+MD5: 52df31762e0d17c426110741badbf829
+kline classificados
+>classificados|result of comparing ./classificados/2001/viagem2/5.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/5.png
+ and classificados
+kline safe
+>|result of comparing ./classificados/2001/viagem2/5.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/5.png
+ and safe
+duplicated files found in keepers, nothing will be done
+===================
+Copia encontrada em ./classificados/2001/viagem2/6.png
+Original: ./classificados/2002/viagem2/6.png
+MD5: 6f2eec92408d97e6c16b5b910c0adf34
+kline classificados
+>classificados|result of comparing ./classificados/2001/viagem2/6.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/6.png
+ and classificados
+kline safe
+>|result of comparing ./classificados/2001/viagem2/6.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/6.png
+ and safe
+duplicated files found in keepers, nothing will be done
+===================
+Copia encontrada em ./bagunca/viagem2 (copy)/7.png
+Original: ./classificados/2002/viagem2/7.png
+MD5: 3cc9509778bda46b0a2fc3cf3ca44431
+kline classificados
+>|result of comparing ./bagunca/viagem2 (copy)/7.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/7.png
+ and classificados
+kline safe
+>|result of comparing ./bagunca/viagem2 (copy)/7.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/7.png
+ and safe
+==KEEPER FOUND on original == safe Moving curr line ./bagunca/viagem2 (copy)/7.png
+ to copia_deletar
+move
+pathMove ./copia_deletar
+filePath ./bagunca/viagem2 (copy)/7.png
+
+fullNewDir copia_deletar/bagunca/viagem2 (copy)
+fullNewPath copia_deletar/bagunca/viagem2 (copy)/7.png
+===================
+Copia encontrada em ./bagunca/viagem2 (copy)/5.png
+Original: ./classificados/2002/viagem2/5.png
+MD5: 52df31762e0d17c426110741badbf829
+kline classificados
+>|result of comparing ./bagunca/viagem2 (copy)/5.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/5.png
+ and classificados
+kline safe
+>|result of comparing ./bagunca/viagem2 (copy)/5.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/5.png
+ and safe
+==KEEPER FOUND on original == safe Moving curr line ./bagunca/viagem2 (copy)/5.png
+ to copia_deletar
+move
+pathMove ./copia_deletar
+filePath ./bagunca/viagem2 (copy)/5.png
+
+fullNewDir copia_deletar/bagunca/viagem2 (copy)
+fullNewPath copia_deletar/bagunca/viagem2 (copy)/5.png
+===================
+Copia encontrada em ./bagunca/viagem2 (copy)/6.png
+Original: ./classificados/2002/viagem2/6.png
+MD5: 6f2eec92408d97e6c16b5b910c0adf34
+kline classificados
+>|result of comparing ./bagunca/viagem2 (copy)/6.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/6.png
+ and classificados
+kline safe
+>|result of comparing ./bagunca/viagem2 (copy)/6.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/6.png
+ and safe
+==KEEPER FOUND on original == safe Moving curr line ./bagunca/viagem2 (copy)/6.png
+ to copia_deletar
+move
+pathMove ./copia_deletar
+filePath ./bagunca/viagem2 (copy)/6.png
+
+fullNewDir copia_deletar/bagunca/viagem2 (copy)
+fullNewPath copia_deletar/bagunca/viagem2 (copy)/6.png
+===================
+Copia encontrada em ./bagunca/viagem2/7.png
+Original: ./classificados/2002/viagem2/7.png
+MD5: 3cc9509778bda46b0a2fc3cf3ca44431
+kline classificados
+>|result of comparing ./bagunca/viagem2/7.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/7.png
+ and classificados
+kline safe
+>|result of comparing ./bagunca/viagem2/7.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/7.png
+ and safe
+==KEEPER FOUND on original == safe Moving curr line ./bagunca/viagem2/7.png
+ to copia_deletar
+move
+pathMove ./copia_deletar
+filePath ./bagunca/viagem2/7.png
+
+fullNewDir copia_deletar/bagunca/viagem2
+fullNewPath copia_deletar/bagunca/viagem2/7.png
+===================
+Copia encontrada em ./bagunca/viagem2/5.png
+Original: ./classificados/2002/viagem2/5.png
+MD5: 52df31762e0d17c426110741badbf829
+kline classificados
+>|result of comparing ./bagunca/viagem2/5.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/5.png
+ and classificados
+kline safe
+>|result of comparing ./bagunca/viagem2/5.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/5.png
+ and safe
+==KEEPER FOUND on original == safe Moving curr line ./bagunca/viagem2/5.png
+ to copia_deletar
+move
+pathMove ./copia_deletar
+filePath ./bagunca/viagem2/5.png
+
+fullNewDir copia_deletar/bagunca/viagem2
+fullNewPath copia_deletar/bagunca/viagem2/5.png
+===================
+Copia encontrada em ./bagunca/viagem2/6.png
+Original: ./classificados/2002/viagem2/6.png
+MD5: 6f2eec92408d97e6c16b5b910c0adf34
+kline classificados
+>|result of comparing ./bagunca/viagem2/6.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/6.png
+ and classificados
+kline safe
+>|result of comparing ./bagunca/viagem2/6.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/6.png
+ and safe
+==KEEPER FOUND on original == safe Moving curr line ./bagunca/viagem2/6.png
+ to copia_deletar
+move
+pathMove ./copia_deletar
+filePath ./bagunca/viagem2/6.png
+
+fullNewDir copia_deletar/bagunca/viagem2
+fullNewPath copia_deletar/bagunca/viagem2/6.png
+===================
+Copia encontrada em ./bagunca/viagem3/no.png
+Original: ./classificados/2002/viagem3/no.png
+MD5: 4cef528b471361f46d8819368a9e9d2a
+kline classificados
+>|result of comparing ./bagunca/viagem3/no.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem3/no.png
+ and classificados
+kline safe
+>|result of comparing ./bagunca/viagem3/no.png
+ and safe
+>|result of comparing ./classificados/2002/viagem3/no.png
+ and safe
+==KEEPER FOUND on original == safe Moving curr line ./bagunca/viagem3/no.png
+ to copia_deletar
+move
+pathMove ./copia_deletar
+filePath ./bagunca/viagem3/no.png
+
+fullNewDir copia_deletar/bagunca/viagem3
+fullNewPath copia_deletar/bagunca/viagem3/no.png
+===================
+Copia encontrada em ./safe/4/4.png
+Original: ./classificados/2001/viagem1/4.png
+MD5: 83af379e2bf9eabade85288cb3f67f72
+kline classificados
+>|result of comparing ./safe/4/4.png
+ and classificados
+>classificados|result of comparing ./classificados/2001/viagem1/4.png
+ and classificados
+kline safe
+>safe|result of comparing ./safe/4/4.png
+ and safe
+>|result of comparing ./classificados/2001/viagem1/4.png
+ and safe
+duplicated files found in keepers, nothing will be done
+===================
+Copia encontrada em ./safe/1/1.png
+Original: ./classificados/2001/viagem1/1.png
+MD5: e43aaffcf4382e4ff155d715b9177c02
+kline classificados
+>|result of comparing ./safe/1/1.png
+ and classificados
+>classificados|result of comparing ./classificados/2001/viagem1/1.png
+ and classificados
+kline safe
+>safe|result of comparing ./safe/1/1.png
+ and safe
+>|result of comparing ./classificados/2001/viagem1/1.png
+ and safe
+duplicated files found in keepers, nothing will be done
+===================
+Copia encontrada em ./safe/7.png
+Original: ./classificados/2002/viagem2/7.png
+MD5: 3cc9509778bda46b0a2fc3cf3ca44431
+kline classificados
+>|result of comparing ./safe/7.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/7.png
+ and classificados
+kline safe
+>safe|result of comparing ./safe/7.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/7.png
+ and safe
+duplicated files found in keepers, nothing will be done
+===================
+Copia encontrada em ./safe/2/2.png
+Original: ./classificados/2001/viagem1/2.png
+MD5: 5190da35dde311c4c293795843c29985
+kline classificados
+>|result of comparing ./safe/2/2.png
+ and classificados
+>classificados|result of comparing ./classificados/2001/viagem1/2.png
+ and classificados
+kline safe
+>safe|result of comparing ./safe/2/2.png
+ and safe
+>|result of comparing ./classificados/2001/viagem1/2.png
+ and safe
+duplicated files found in keepers, nothing will be done
+===================
+Copia encontrada em ./safe/no.png
+Original: ./classificados/2002/viagem3/no.png
+MD5: 4cef528b471361f46d8819368a9e9d2a
+kline classificados
+>|result of comparing ./safe/no.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem3/no.png
+ and classificados
+kline safe
+>safe|result of comparing ./safe/no.png
+ and safe
+>|result of comparing ./classificados/2002/viagem3/no.png
+ and safe
+duplicated files found in keepers, nothing will be done
+===================
+Copia encontrada em ./safe/5.png
+Original: ./classificados/2002/viagem2/5.png
+MD5: 52df31762e0d17c426110741badbf829
+kline classificados
+>|result of comparing ./safe/5.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/5.png
+ and classificados
+kline safe
+>safe|result of comparing ./safe/5.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/5.png
+ and safe
+duplicated files found in keepers, nothing will be done
+===================
+Copia encontrada em ./safe/3/3.png
+Original: ./classificados/2001/viagem1/3.png
+MD5: f79fb5c04cf7862c257c6f4f85b76479
+kline classificados
+>|result of comparing ./safe/3/3.png
+ and classificados
+>classificados|result of comparing ./classificados/2001/viagem1/3.png
+ and classificados
+kline safe
+>safe|result of comparing ./safe/3/3.png
+ and safe
+>|result of comparing ./classificados/2001/viagem1/3.png
+ and safe
+duplicated files found in keepers, nothing will be done
+===================
+Copia encontrada em ./safe/6.png
+Original: ./classificados/2002/viagem2/6.png
+MD5: 6f2eec92408d97e6c16b5b910c0adf34
+kline classificados
+>|result of comparing ./safe/6.png
+ and classificados
+>classificados|result of comparing ./classificados/2002/viagem2/6.png
+ and classificados
+kline safe
+>safe|result of comparing ./safe/6.png
+ and safe
+>|result of comparing ./classificados/2002/viagem2/6.png
+ and safe
+duplicated files found in keepers, nothing will be done
