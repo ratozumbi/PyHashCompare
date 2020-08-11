@@ -43,23 +43,27 @@ def getHashes(path, fileHashes):
             getHashes(fullpath, fileHashes)
 
 def moveFileWithBranch (pathMove, filePath):
-    log("move")
-    log("pathMove "+ pathMove)
-    log("filePath "+ filePath)
-    
+    filePath = filePath[:-1]
+    if not os.path.exists(filePath):
+        log(filePath + " already deleted. Skipping")
+        return
+
+    fileDirName = os.path.dirname(filePath)
+
     fullNewPath =os.path.normpath(os.path.join(pathMove,filePath)) 
-    fullNewPath = fullNewPath[:-1]
-    fullNewDir = os.path.normpath(os.path.join(pathMove,os.path.dirname(filePath)))
+    # fullNewPath = fullNewPath[:-1]
+    fullNewDir = os.path.normpath(os.path.join(pathMove,fileDirName))
     os.makedirs(fullNewDir, exist_ok=True)
 
-    log("fullNewDir "+fullNewDir)
-    log("fullNewPath "+fullNewPath)
     # my_file = Path(fullNewPath)
     if os.path.exists(fullNewPath):
         log(fullNewPath + " already exist. Not going to move.")
     else:
-        filePath = filePath[:-1]
         shutil.move(filePath,fullNewDir)
+
+    if len([name for name in os.listdir(fileDirName)]) == 0:
+        log("will delete " + fileDirName)
+        shutil.rmtree(fileDirName)
 
 
 with open("./hashes.txt", "w+") as fileHashes:
@@ -83,10 +87,8 @@ with open("./hashes.txt", "r") as fileHashes:
                 eqLineHash = False
                 for kline in keeperLines:
                     kline = kline[:-1]
-                    log("kline " + kline)
                     try:
                         comp = os.path.commonpath([lineHashPath[1], kline])
-                        log(">"+comp +"|result of comparing " + lineHashPath[1] + " and " + kline)
                     except:
                         log("paths compare line hash error")
 
@@ -95,7 +97,6 @@ with open("./hashes.txt", "r") as fileHashes:
                     
                     try:
                         comp = os.path.commonpath([dicHashPath[lineHashPath[0]], kline])
-                        log(">"+comp +"|result of comparing " + dicHashPath[lineHashPath[0]] + " and " + kline)
                     except:
                         log("paths compare original error")
 
@@ -111,6 +112,9 @@ with open("./hashes.txt", "r") as fileHashes:
                     moveFileWithBranch("./original_deletar", dicHashPath[lineHashPath[0]] )
                 elif eqOriginal and eqLineHash:
                     log("duplicated files found in keepers, nothing will be done")
+                else:
+                    log("Same image found. No keeper path for any. First entry "+dicHashPath[lineHashPath[0]]+" will be kept")
+                    moveFileWithBranch("./original_deletar", lineHashPath[0] )
 
             
             

@@ -12,6 +12,14 @@ e43aaffcf4382e4ff155d715b9177c02##./classificados/2001/viagem1/1.png
 3cc9509778bda46b0a2fc3cf3ca44431##./classificados/2001/viagem2/7.png
 52df31762e0d17c426110741badbf829##./classificados/2001/viagem2/5.png
 6f2eec92408d97e6c16b5b910c0adf34##./classificados/2001/viagem2/6.png
+3cc9509778bda46b0a2fc3cf3ca44431##./bagunca (copy)/viagem2 (copy)/7.png
+52df31762e0d17c426110741badbf829##./bagunca (copy)/viagem2 (copy)/5.png
+6f2eec92408d97e6c16b5b910c0adf34##./bagunca (copy)/viagem2 (copy)/6.png
+3cc9509778bda46b0a2fc3cf3ca44431##./bagunca (copy)/viagem2/7.png
+52df31762e0d17c426110741badbf829##./bagunca (copy)/viagem2/5.png
+6f2eec92408d97e6c16b5b910c0adf34##./bagunca (copy)/viagem2/6.png
+4cef528b471361f46d8819368a9e9d2a##./bagunca (copy)/viagem3/no.png
+68eeed49f6f0b56f2036b9e42519e190##./bagunca (copy)/viagem3/nosame.png
 3cc9509778bda46b0a2fc3cf3ca44431##./bagunca/viagem2 (copy)/7.png
 52df31762e0d17c426110741badbf829##./bagunca/viagem2 (copy)/5.png
 6f2eec92408d97e6c16b5b910c0adf34##./bagunca/viagem2 (copy)/6.png
@@ -20,14 +28,6 @@ e43aaffcf4382e4ff155d715b9177c02##./classificados/2001/viagem1/1.png
 6f2eec92408d97e6c16b5b910c0adf34##./bagunca/viagem2/6.png
 4cef528b471361f46d8819368a9e9d2a##./bagunca/viagem3/no.png
 68eeed49f6f0b56f2036b9e42519e190##./bagunca/viagem3/nosame.png
-097bf62fdc313f64d837d43c2319460d##./result.txt
-3e72bc4e297c86072a12a54486bd14cc##./magia.py
+5c0494492024e396c282cd14d866c20f##./result.txt
+51d4d3c9fca209f4930360882d29af17##./magia.py
 fd552888c13d653801e03343a3e8d80f##./keepers.txt
-83af379e2bf9eabade85288cb3f67f72##./safe/4/4.png
-e43aaffcf4382e4ff155d715b9177c02##./safe/1/1.png
-3cc9509778bda46b0a2fc3cf3ca44431##./safe/7.png
-5190da35dde311c4c293795843c29985##./safe/2/2.png
-4cef528b471361f46d8819368a9e9d2a##./safe/no.png
-52df31762e0d17c426110741badbf829##./safe/5.png
-f79fb5c04cf7862c257c6f4f85b76479##./safe/3/3.png
-6f2eec92408d97e6c16b5b910c0adf34##./safe/6.png
